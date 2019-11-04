@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Roboto:300,400,500&display=swap');
+:root {
+  --primary-color: #607d8b;
+  --primary-color-light: #8eacbb;
+  --primary-color-dark: #34515e;
+  --secondary-color: #0d47a1;
+  --secondary-color-light: #5472d3;
+  --secondary-color-dark: #002171;
+}
+
+header, main, footer {
+  padding-left: 300px;
+}
+body {
+  background-color: #fff;
+}
+main {
+  padding-top: 0px;
+}
+#nav-icon {
+  padding: 20px 20px 0 20px;
+}
+#nav-icon a {
+  color:#000;
+}
+#search_input {
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+}
+#table-container {
+  padding: 0 15px;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+}
+#table-container blockquote span {
+  font-size:1.5rem;
+  padding-top:10px;
+}
+.thead > th {
+text-transform: uppercase;
+font-size: 0.95rem;
+text-align: center;
+}
+#ticket {
+  padding: 30px 30px 0 30px;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+}
+#inner-ticket {
+  border-bottom: 1px solid #555;
+}
+#create  {
+  padding: 30px 30px 0 30px;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+}
+#comment-section h6{
+  padding: 40px 0px;
+}
+#history {
+  padding: 30px;
+}
+#info-card {
+  padding: 10px 30px 0 30px;  
+  animation-name: fadeIn;
+  animation-duration: .7s;
+}
+.secondary-btn {
+  background-color: var(--secondary-color-dark);
+  color:#fff;
+}
+.secondary-btn:hover, .secondary-btn:focus{
+  background-color: var(--secondary-color);
+}
+.side-nav li>a>i.material-icons {
+  color: var(--secondary-color) !important;
+}
+blockquote {
+  border-left-color: var(--primary-color-light);
+}
+.history-card {
+  padding: 15px !important;
+  margin-bottom:10px;
+  border:2px solid var(--primary-color-light);
+  border-radius:10px;
+  transition: ease-in 0.3s;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+}
+.history-card:hover {
+  background-color: var(--primary-color-light);
+  transition: ease-in 0.3s;
+}
+.info-card {
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+.closed-card {
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.closed-card p {
+  padding-top:10px;
+  border-top:1px solid #333;
+}
+.hidden {
+  display: none;
+}
+/* Typeography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+p, span {
+  font-family: 'Roboto',sans-serif;
+}
+/* Utils */
+.d-flex {
+ display:flex;
+}
+/* Keyframes */
+@keyframes fadeIn { 
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity:1;
+ }
+}
+/* Media Queries */
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  #ticket {
+    padding-left:10px;
+    padding-right: 10px;
+  }
+  #create, #history {
+    padding: 0;
+  }
+  #nav-icon {
+    display: block;
+  }
+}
