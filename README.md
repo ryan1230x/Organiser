@@ -16,7 +16,8 @@ For the frontend the framework materialize was used with material icons, the des
 
 # Conclusion
 Through this project I learned a lot, I increased my knowledge using PHP and MySQL creating a full working software application. I welcome you to download the project and put on your localhost server go to the ./config/signin.php uncomment the code
-create a username and password, login and explore the platform appearance and functionality.
+create a username and password, login and explore the platform appearance and functionality, Or you see the hosted project
+https://ryanwilliamharper.com/helpdesk/
 
 Many thanks,
 Ryan 
